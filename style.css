@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+    color: brown;
+}
+
+header, section , main h2 {
+    text-align: center;
+}
+img {
+    width: 90%;
+    border: black solid 2px;
+    margin: 0;
+    padding: 2px;
+}
+#headerimage {
+    margin: 0
+}
+footer {
+    text-align:center;
+}
+aside{
+    display: inline-block;
+    width: 270px;
+    vertical-align: top;
+}
+main{
+    display: inline-block;
+    width:1000px;}
+
+li{
+    margin: 20px;
+    padding: 20px;
+ 
+}
+a{
+    text-decoration: none;
+    color: white;
+}    
+section{
+    color:cadetblue;
+}
