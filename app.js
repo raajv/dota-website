@@ -27,19 +27,7 @@ function myFunction() {
     x.style.color = "green";
     }
 
-function myGame() {
-    let correctAnswer = 55;
-    let numberOfGuesses = 10;
 
-    for(i=0; i<numberofGuesses ; i +=1)
-    let userAnswer = prompt('please enter a number');
-    while(userAnswer <= 0 || userAnswer >100 ){
-        userAnswer = prompt('please enter a number');
-    }
-    if(userAnswer == correctAnswer){
-    alert = ('you win')
-    }
     
 
 
-}
