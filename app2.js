@@ -5,5 +5,5 @@ console.log(likeDota)
 if(likeDota == 'yes'){
     document.write('YOU ARE MOST WELCOME!')
 } else {
-    document.write('FINISH HIM!')
+    document.write('<img src="images/go home.gif">')
 }
