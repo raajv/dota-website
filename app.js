@@ -3,8 +3,7 @@ function getUsername(){
     document.write ( 'Welcome ' +  userName  +  '!' )
     return userName;
 }
-let userName = getUsername();
-console.log(userName)
+
 
 function getDota(){
     let likeDota= prompt('Do You Like DOTA?')
@@ -20,8 +19,7 @@ function getDota(){
     }
     return likeDota;    
 }
-let likeDota = getDota();
-console.log(likeDota);
+
 
 function myFunction() {
     let x =
