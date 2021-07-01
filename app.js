@@ -11,11 +11,12 @@ function getDota(){
 
     if(likeDota == 'yes'){
         document.write('YOU ARE MOST WELCOME!')
-    } else if (likeDota !='no'){
+    } else if (likeDota =='no'){
         document.write('<img src="images/go home.gif">')
     }
     else {
         prompt('YOU MUST ENTER YES OR NO')
+        getDota();
     }
     return likeDota;    
 }
