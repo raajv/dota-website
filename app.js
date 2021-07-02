@@ -37,6 +37,7 @@ function myGame(){
         
         if (userAnswer == correctAnswer){
             alert('you got it right!');
+            break;
         }else {
             alert('try again');
         }
